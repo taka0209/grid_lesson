@@ -1,0 +1,19 @@
+.container {
+   display: grid;
+   grid-template:
+      "areaA areaB areaB" 100px
+      "areaA areaC areaC" 100px / 100px 1fr;
+}
+
+.itemA {
+   grid-area: areaA;
+   background-color: skyblue;
+}
+.itemB {
+   grid-area: areaB;
+   background-color: yellow;
+}
+.itemC {
+   grid-area: areaC;
+   background-color: pink;
+}
